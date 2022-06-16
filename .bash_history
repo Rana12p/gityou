@@ -160,3 +160,21 @@ ls -al
 git status
 git add file1 
 git commit
+ll
+git commit -m "first commit" file1 
+git status
+clear
+git log
+touch file2
+git add .
+git commit -m "second commit" .
+git status
+git log
+clear
+git remote add origin 
+git remote add origin https://github.com/Rana12p/gityou.git
+ll
+git branch
+git push -u origin master
+git remote add origin https://github.com/Rana12p/gityou.git
+git push -u origin master
